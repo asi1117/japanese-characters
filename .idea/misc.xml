@@ -5,6 +5,12 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2791666666666667" />
         <entry key="app/src/main/res/drawable/ic_info_black_24dp.xml" value="0.201" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/menu/display_message.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.2526041666666667" />
       </map>
     </option>
   </component>

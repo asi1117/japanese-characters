@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Hiragana and Katakana</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">五十音の勉強</string>
+    <string name="action_settings">設定</string>
 
-    <color name="darkBG">#161622</color>
-    <color name="lightText">#FFFFFF</color>
+    <color name="darkBG">#AFEEEE</color>
+    <color name="lightText">#DC143C</color>
 
     <string name="title_activity_display_message">DisplayMessageActivity</string>
     <string name="placeholderDash">-</string>
-    <string name="buttonHiragana">Hiragana</string>
-    <string name="buttonKatakana">Katakana</string>
-    <string name="buttonKanji">Kanji</string>
-    <string name="buttonMixture">Mixture</string>
-    <string name="VersionNumber">Version 1.0.6</string>
-    <string name="buttonFlip">Flip questions</string>
+    <string name="buttonHiragana">ひらがな</string>
+    <string name="buttonKatakana">カタカナ</string>
+    <string name="buttonKanji">漢字</string>
+    <string name="buttonMixture">混合</string>
+    <string name="VersionNumber">ベリーベリーグッド</string>
+    <string name="buttonFlip">切替</string>
     <string name="Choices">Choices</string>
     <string name="Count">Count</string>
     <string name="title_activity_settings">Settings</string>
