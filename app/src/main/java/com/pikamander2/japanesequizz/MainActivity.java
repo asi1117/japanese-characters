@@ -28,12 +28,11 @@ public class MainActivity extends AppCompatActivity {
         Button buttonHiragana = findViewById(R.id.buttonHiragana);
         Button buttonKatakana = findViewById(R.id.buttonKatakana);
         Button buttonMixture =  findViewById(R.id.buttonMixture);
-
+        Button buttonRanking = findViewById(R.id.buttonRanking);
         buttonHiragana.setOnClickListener(hiraganaButtonPressed);
-
         buttonKatakana.setOnClickListener(katakanaButtonPressed);
-
         buttonMixture.setOnClickListener(mixtureButtonPressed);
+        buttonRanking.setOnClickListener(rankingButtonPressed);
     }
 
     public View.OnClickListener hiraganaButtonPressed = new View.OnClickListener() {
@@ -53,7 +52,9 @@ public class MainActivity extends AppCompatActivity {
             switchActivity(view, 4);
         }
     };
-
+    public View.OnClickListener rankingButtonPressed = new  View.OnClickListener(){
+        public void onClick(View view) { switchActivity(view, 2);}
+    };
     public void switchActivity(View view, int quizID) {
         Intent intent = new Intent(this, QuizActivity.class);
         intent.putExtra(EXTRA_QUIZ_ID, quizID);
